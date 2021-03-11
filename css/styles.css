@@ -141,6 +141,13 @@ section {
     min-height: 80vh;
     background-color: yellow;
   }
+
+  .active-header {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: yellow !important;
+  }
 }
 
 section:nth-of-type(even) .landing__container {
